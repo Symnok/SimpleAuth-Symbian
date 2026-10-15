@@ -1,0 +1,44 @@
+# --- Symbian build (Qt for Symbian builds in-source: qmake + sbs output) ---
+Makefile*
+bld.inf
+*.mmp
+*.rss
+*.loc
+*.mif
+*.pkg
+.make.cache
+*.pri.PREV
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+build.log
+
+# Phone packages (build-symbian.cmd leaves SimpleAuth_<ver>.sis; publish them as releases)
+*.sis
+*.sisx
+
+# --- Desktop builds (tools\build-desktop.cmd, tools\run-*-test.cmd) ---
+build-desktop/
+release/
+debug/
+object_script.*
+*.o
+*.obj
+*.exe
+
+# Generated test data (tools\make-qr-samples.py)
+tools/qr-test/samples/
+test-links/
+
+# --- QR test bench .exe (tools\build-qr-gui-exe.cmd) ---
+tools/.venv-exe/
+tools/build-exe/
+tools/*.ico
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Never commit: backups and settings hold (encrypted) keys ---
+*.sauth
+*.ini

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/qml">
+    <file alias="main.qml">qml/main.qml</file>
+    <file alias="AccountsPage.qml">qml/AccountsPage.qml</file>
+    <file alias="AddAccountPage.qml">qml/AddAccountPage.qml</file>
+    <file alias="SettingsPage.qml">qml/SettingsPage.qml</file>
+    <file alias="AboutPage.qml">qml/AboutPage.qml</file>
+    <file alias="ScanPage.qml">qml/ScanPage.qml</file>
+    <file alias="ShowQrPage.qml">qml/ShowQrPage.qml</file>
+    <file alias="SetupPage.qml">qml/SetupPage.qml</file>
+    <file alias="UnlockPage.qml">qml/UnlockPage.qml</file>
+    <file alias="ChangeSecretPage.qml">qml/ChangeSecretPage.qml</file>
+    <file alias="SecretFields.qml">qml/SecretFields.qml</file>
+    <file alias="RestorePage.qml">qml/RestorePage.qml</file>
+    <file alias="EditAccountPage.qml">qml/EditAccountPage.qml</file>
+</qresource>
+<qresource prefix="/">
+    <file>icon.svg</file>
+</qresource>
+</RCC>
